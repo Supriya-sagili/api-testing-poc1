@@ -10,6 +10,8 @@ public class OnlineShopApiTest {
     static String apiUrl;
     SoftAssertions softly = new SoftAssertions();
 
+    //Add
+
     @BeforeAll
     static void getApiUrl() {
         apiUrl = System.getProperty("apiUrl");
