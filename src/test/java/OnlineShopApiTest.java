@@ -10,7 +10,7 @@ public class OnlineShopApiTest {
     static String apiUrl;
     SoftAssertions softly = new SoftAssertions();
 
-    //Add
+
 
     @BeforeAll
     static void getApiUrl() {
@@ -27,7 +27,7 @@ public class OnlineShopApiTest {
         System.out.println("Status Code is: " + statusCode);
 
     }
-
+//GET Method
     @Test
     public void getProducts_List1() throws InvalidResponseException {
         OnlineShopApiClient client = new OnlineShopApiClient(apiUrl, "/api/shop/getproducts");
@@ -48,7 +48,7 @@ public class OnlineShopApiTest {
         System.out.println("Available products count : " + productsCount);
 
     }
-
+//Post Method
     @Test
     public void createAddProducts_Cart() throws InvalidResponseException {
         OnlineShopApiClient client = new OnlineShopApiClient(apiUrl, "/api/shop/addtocart");
@@ -80,7 +80,7 @@ public class OnlineShopApiTest {
 
 
     }*/
-//Delete Product
+//Delete Method
  @Test
     public void deleteNewOwners_throughID_ShouldDisplayDeletedId() throws InvalidResponseException {
         //create a new product
