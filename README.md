@@ -1,4 +1,3 @@
-pre-requisites - download code and do setup from https://github.com/BestBuy/api-playground
 
 Project has 2 sub-modules 
 
