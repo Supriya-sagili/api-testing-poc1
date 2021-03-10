@@ -1,8 +1,8 @@
 //creating pipeline
 pipeline {
 	environment {
-    		def APP_NAME = "petclinicAPI[api-testing-poc]"
-    		def GIT_REPO_NAME = "api-testing-poc"
+    		def APP_NAME = "api-testing-poc"
+    		def GIT_REPO_NAME = "Supriya-sagili"
     		def DEPLOY_ENV = "dev"
 	}
     	agent { dockerfile true }
