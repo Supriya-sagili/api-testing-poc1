@@ -1,7 +1,7 @@
 //Docker
 pipeline {
 	environment {
-    		def APP_NAME = "api-testing-poc"
+    		def APP_NAME = "api-testing-poc1"
     		def GIT_REPO_NAME = "Supriya-sagili"
     		def DEPLOY_ENV = "dev"
 	}
